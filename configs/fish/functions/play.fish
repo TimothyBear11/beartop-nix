@@ -1,5 +1,5 @@
 function play
-    set -l index_file ~/configs/guardian/playlists.txt
+    set -l index_file ~/nix/configs/guardian/playlists.txt
     set -l entry (grep "^$argv[1]|" $index_file | tail -n 1)
 
     if test -z "$entry"

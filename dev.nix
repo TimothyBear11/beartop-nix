@@ -8,15 +8,13 @@
     nixd
 
     # -- IDEs --
-    
+
     vscodium
     jetbrains.pycharm-oss
     zed-editor
     positron-bin
     helix
     antigravity
-    code-cursor
-    windsurf
 
     # -- Productivity --
     direnv
@@ -28,6 +26,6 @@
     file
     fzf
     ripgrep
-    
+
   ];
 }

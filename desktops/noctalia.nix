@@ -3,7 +3,7 @@
 {
   environment.systemPackages = with pkgs; [
     # 1. Noctalia v5 (Launches via the 'noctalia' binary)
-    inputs.noctaliav5.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.noctalia.packages.${pkgs.stdenv.hostPlatform.system}.default
 
     # 2. Noctalia v4 'noctalia-shell' (Wrapped to isolate its config folder)
     (writeShellScriptBin "noctalia-shell" ''

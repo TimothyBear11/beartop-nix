@@ -9,23 +9,18 @@
     tumbler
     kdePackages.kate
     kdePackages.dolphin
-    signal-desktop
-    filezilla
-    vesktop
     joplin-desktop
     pcmanfm
     pywalfox-native
-    spicetify-cli
     uv
     jq
-    apostrophe 
+    apostrophe
     obsidian
     ani-cli
     yt-dlp
     ffmpeg
     ffmpegthumbnailer
     floorp-bin
-    telegram-desktop
     wtfutil
     superfile
     bibata-cursors
@@ -40,7 +35,6 @@
     libnotify
     yazi
     superfile
-    concord 
-    brave
+    concord
   ];
 }
