@@ -1,0 +1,6 @@
+piano|https://music.youtube.com/playlist?list=PLRJET8NxPz_6tn_E3GizZ17zZpD-ewW9v
+good|https://music.youtube.com/playlist?list=PLRJET8NxPz_5eP252yi-obNCEKj7RZbH5
+relax|https://music.youtube.com/playlist?list=PLRJET8NxPz_62OVTS63GPvpTjgdMVO1FI
+chill|https://music.youtube.com/playlist?list=PLRJET8NxPz_7-DlGXc5gd3546usqvOFHb
+hurt|https://music.youtube.com/playlist?list=PLRJET8NxPz_6PJpQT2qIzYh2ruX9P7l1v
+gaming|https://music.youtube.com/playlist?list=PLRJET8NxPz_5R3cSDgoBqDrEdSSRBjmDg

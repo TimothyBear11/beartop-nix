@@ -1,0 +1,13 @@
+profile {
+            # Background Wallpaper
+            exec swaybg -m fill -i ~/nix/Pictures/Wallpapers/GuardianOS.png
+
+            # OMEN 27i IPS (Main 165Hz Gaming Panel)
+            output "DP-1" enable mode 2560x1440 position 1920,0
+
+            # Sceptre F27 (Secondary 60Hz Panel)
+            output "DP-2" enable mode 1920x1080 position 0,0
+
+            # LG 27MP33 (Tertiary 60Hz Panel)
+            output "HDMI-A-1" enable mode 1920x1080 position 4480,0
+          }

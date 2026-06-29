@@ -1,0 +1,25 @@
+hotkey-overlay {
+    skip-at-startup
+}
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+animations {
+    // Uncomment to turn off all animations.
+    // off
+
+    // Slow down all animations by this factor. Values below 1 speed them up instead.
+    // slowdown 3.0
+}
+
+
+
+include "./binds.kdl"
+include "./env.kdl"
+include "./input.kdl"
+include "./layout.kdl"
+include "./output.kdl"
+include "./startup.kdl"
+include "./winlayrules.kdl"
+
+include "./noctalia.kdl"

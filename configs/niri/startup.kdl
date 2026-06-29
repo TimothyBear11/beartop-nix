@@ -1,0 +1,7 @@
+spawn-at-startup "bash" "-c" "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
+spawn-at-startup "bash" "-c" "gnome-keyring-daemon --start --components=pkcs11,secrets,ssh"
+spawn-at-startup "noctalia-shell"
+spawn-at-startup "steam"
+spawn-at-startup "nm-applet"
+spawn-at-startup "kdeconnect-indicator"
+spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"

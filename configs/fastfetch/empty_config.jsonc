@@ -1,0 +1,44 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [
+    "title",
+    "separator",
+    {
+      "type": "os",
+      "key": "OS",
+      "format": "{3} {12}",
+    },
+    "host",
+    "kernel",
+    {
+      "type": "command",
+      "key": "Scheduler",
+      "keyColor": "34", // Guardian Blue
+      "text": "[ -f /sys/kernel/sched_ext/root/ops ] && cat /sys/kernel/sched_ext/root/ops | cut -d'_' -f1 || echo 'Default (EEVDF)'",
+    },
+    "uptime",
+    {
+      "type": "command",
+      "key": "OS Lifetime",
+      "text": "echo $(($(($(date +%s) - $(stat -c %Y /etc/machine-id))) / 86400)) days",
+      "keyColor": "31",
+    },
+    "packages",
+    "shell",
+    "display",
+    "wm",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 2,
+      "block": {
+        "range": [0, 7],
+      },
+    },
+  ],
+}
